@@ -9,8 +9,6 @@ const AppModernization = lazy(() => import('./pages/services/AppModernization'))
 const AIDataAnalytics = lazy(() => import('./pages/services/AIDataAnalytics'))
 const CloudInfrastructure = lazy(() => import('./pages/services/CloudInfrastructure'))
 const GenerativeAI = lazy(() => import('./pages/services/GenerativeAI'))
-const CloudSolutionFactory = lazy(() => import('./pages/solutions/CloudSolutionFactory'))
-const AISolutionFactory = lazy(() => import('./pages/solutions/AISolutionFactory'))
 const GenAISolutionFactory = lazy(() => import('./pages/solutions/GenAISolutionFactory'))
 const Industries = lazy(() => import('./pages/industries/Industries'))
 const IndustryDetail = lazy(() => import('./pages/industries/IndustryDetail'))
@@ -52,9 +50,9 @@ const AzureExpertMSP = lazy(() => import('./pages/services/cloud-infra/AzureExpe
 const CloudFinOps = lazy(() => import('./pages/services/cloud-infra/CloudFinOps'))
 const SAPCloudSolutions = lazy(() => import('./pages/services/cloud-infra/SAPCloudSolutions'))
 // Platform pages
-const Vista = lazy(() => import('./pages/platforms/Vista'))
-const MediaIntelligencePlatform = lazy(() => import('./pages/platforms/MediaIntelligencePlatform'))
-const MaxAIStudio = lazy(() => import('./pages/platforms/MaxAIStudio'))
+const Sentinel = lazy(() => import('./pages/platforms/Sentinel'))
+const Prism = lazy(() => import('./pages/platforms/Prism'))
+const Forge = lazy(() => import('./pages/platforms/Forge'))
 const Swayam = lazy(() => import('./pages/solutions/Swayam'))
 
 function LoadingSpinner() {
@@ -101,11 +99,9 @@ export default function App() {
             <Route path="/services/cloud-infrastructure-security/azure-expert-msp" element={<AzureExpertMSP />} />
             <Route path="/services/cloud-infrastructure-security/cloud-finops" element={<CloudFinOps />} />
             <Route path="/services/cloud-infrastructure-security/sap-cloud-solutions" element={<SAPCloudSolutions />} />
-            <Route path="/platforms/vista" element={<Vista />} />
-            <Route path="/platforms/media-intelligence-platform" element={<MediaIntelligencePlatform />} />
-            <Route path="/platforms/max-ai-studio" element={<MaxAIStudio />} />
-            <Route path="/solutions/cloud-solution-factory" element={<CloudSolutionFactory />} />
-            <Route path="/solutions/ai-solution-factory" element={<AISolutionFactory />} />
+            <Route path="/platforms/sentinel" element={<Sentinel />} />
+            <Route path="/platforms/prism" element={<Prism />} />
+            <Route path="/platforms/forge" element={<Forge />} />
             <Route path="/solutions/gen-ai-solution-factory" element={<GenAISolutionFactory />} />
             <Route path="/solutions/swayam" element={<Swayam />} />
             <Route path="/industries" element={<Industries />} />

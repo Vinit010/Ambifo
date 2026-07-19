@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion'
 
 const cloudPartners = [
-  { name: 'AWS', image: 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/66bb00865b14209c96b9a49a_aws%20logo.avif' },
-  { name: 'Microsoft Azure', image: 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/66baee1ab18ad985eb74ea4a_Microsoft_Azure.avif' },
-  { name: 'Google Cloud', image: 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/662e022aa05cdd773949e045_Google_Cloud.svg.avif' },
+  { name: 'AWS', image: '/images/logos/tech/aws.avif' },
+  { name: 'Microsoft Azure', image: '/images/logos/tech/azure.avif' },
+  { name: 'Google Cloud', image: '/images/logos/tech/gcp.avif' },
 ]
 
 export default function Partners() {

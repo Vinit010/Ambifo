@@ -5,12 +5,12 @@ export const strategyAdvisory = {
   subtitle: 'Navigate change with confidence. Our experts help you define a clear vision, assess readiness, and build a roadmap for digital transformation.',
   accent: 'blue',
   services: [
-    { icon: BarChart3, title: 'Digital Maturity Assessment', desc: 'Analyze your current digital maturity level and receive a strategic roadmap for becoming a digital leader. Evaluate your current digital capabilities and identify growth opportunities across people, process, and technology.', image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80' },
-    { icon: Target, title: 'AI Readiness Assessment', desc: 'Identify potential gaps and opportunities to successfully implement AI solutions. Assess your organization\'s preparedness for AI adoption with a structured framework and actionable roadmap.', image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80' },
-    { icon: Route, title: 'Cloud Advisory Services', desc: 'Develop a winning cloud strategy aligned with your business objectives, covering cloud adoption, operating models, FinOps, and architecture consulting.', image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80' },
-    { icon: Shield, title: 'Well-Architected Framework Review', desc: 'Uncover improvement opportunities and elevate your cloud architecture for cost-efficiency, security, and performance. Review your cloud architecture against AWS/Azure best practices.', image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80' },
-    { icon: RefreshCw, title: 'DevSecOps Maturity Assessment', desc: 'Evaluate your DevSecOps practices and identify areas for improvement to streamline development, enhance security, and achieve faster time-to-market.', image: 'https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&q=80' },
-    { icon: Lightbulb, title: 'Modernization Assessment', desc: 'Unlock the potential of your legacy systems by identifying the best modernization strategy for your needs. Analyze legacy systems and create a phased modernization roadmap.', image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80' },
+    { icon: BarChart3, title: 'Digital Maturity Assessment', desc: 'Analyze your current digital maturity level and receive a strategic roadmap for becoming a digital leader. Evaluate your current digital capabilities and identify growth opportunities across people, process, and technology.', image: '/images/services/strategy.jpg' },
+    { icon: Target, title: 'AI Readiness Assessment', desc: 'Identify potential gaps and opportunities to successfully implement AI solutions. Assess your organization\'s preparedness for AI adoption with a structured framework and actionable roadmap.', image: '/images/services/generative-ai.jpg' },
+    { icon: Route, title: 'Cloud Advisory Services', desc: 'Develop a winning cloud strategy aligned with your business objectives, covering cloud adoption, operating models, FinOps, and architecture consulting.', image: '/images/services/cloud.jpg' },
+    { icon: Shield, title: 'Well-Architected Framework Review', desc: 'Uncover improvement opportunities and elevate your cloud architecture for cost-efficiency, security, and performance. Review your cloud architecture against AWS/Azure best practices.', image: '/images/services/network.jpg' },
+    { icon: RefreshCw, title: 'DevSecOps Maturity Assessment', desc: 'Evaluate your DevSecOps practices and identify areas for improvement to streamline development, enhance security, and achieve faster time-to-market.', image: '/images/services/modern-app.jpg' },
+    { icon: Lightbulb, title: 'Modernization Assessment', desc: 'Unlock the potential of your legacy systems by identifying the best modernization strategy for your needs. Analyze legacy systems and create a phased modernization roadmap.', image: '/images/services/hardware.jpg' },
   ],
 }
 
@@ -76,13 +76,13 @@ export const accentMap = {
 }
 
 export const whyChooseIcons = [
-  { label: 'Enterprise-Grade Expertise', icon: 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/67127a0d3619168acb6f8bbe_icon_rocket.svg' },
-  { label: 'Industry-Specific Solutions', icon: 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/67127a0d02921553c7c4fd2a_icon_factory.svg' },
-  { label: 'Comprehensive Service Suite', icon: 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/66d6919817fa9fc4590cff08_icon_cloud-data%20tarnsfer.svg' },
-  { label: 'Thought Leadership & Innovation', icon: 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/67127a0fbcb0f9b2e70e12c9_icon_bulb%20on.svg' },
-  { label: 'Measurable ROI', icon: 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/66e50788e9d2bc959c731546_icon_progress%20chart.svg' },
+  { label: 'Enterprise-Grade Expertise', icon: '/images/services/icons/rocket.svg' },
+  { label: 'Industry-Specific Solutions', icon: '/images/services/icons/factory.svg' },
+  { label: 'Comprehensive Service Suite', icon: '/images/services/icons/cloud-data.svg' },
+  { label: 'Thought Leadership & Innovation', icon: '/images/services/icons/bulb.svg' },
+  { label: 'Measurable ROI', icon: '/images/services/icons/chart.svg' },
 ]
 
-export const blueTickIcon = 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/66c0d9e9463cbe8b6c79c705_blue_tick-mark.svg'
-export const arrowIcon = 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/66d14272da8d2568324c68e0_arrow.svg'
-export const whiteArrowIcon = 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/66dc362ba0bd34b5413c66eb_white%20downward%20arrow.svg'
+export const blueTickIcon = '/images/services/icons/blue-tick.svg'
+export const arrowIcon = '/images/services/icons/arrow.svg'
+export const whiteArrowIcon = '/images/services/icons/down-arrow.svg'

@@ -7,31 +7,31 @@ const heroSlides = [
   {
     title: 'Cloud Migration',
     subtitle: 'Seamless transition to scalable cloud infrastructure',
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80',
+    image: '/images/hero/globe.jpg',
     icon: '☁️',
   },
   {
     title: 'AI & Machine Learning',
     subtitle: 'Intelligent solutions powered by data-driven insights',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&q=80',
+    image: '/images/hero/ai.jpg',
     icon: '🧠',
   },
   {
     title: 'DevOps & Automation',
     subtitle: 'Accelerate delivery with CI/CD and infrastructure as code',
-    image: 'https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=1200&q=80',
+    image: '/images/hero/circuit.jpg',
     icon: '⚡',
   },
   {
     title: 'Data Analytics',
     subtitle: 'Transform raw data into actionable business intelligence',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80',
+    image: '/images/hero/data.jpg',
     icon: '📊',
   },
   {
     title: 'Cybersecurity',
     subtitle: 'Protect your digital assets with enterprise-grade security',
-    image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80',
+    image: '/images/hero/security.jpg',
     icon: '🔒',
   },
 ]
@@ -50,7 +50,7 @@ export default function HeroSection() {
     <section id="hero" className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden bg-navy-900">
       <div className="absolute inset-0 opacity-30">
         <img
-          src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80"
+          src="/images/hero/globe.jpg"
           alt=""
           className="w-full h-full object-cover"
         />

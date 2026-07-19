@@ -40,12 +40,12 @@ const navItems = [
 ]
 
 const menuBgImages: Record<string, string> = {
-  Services: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80',
-  Solutions: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&q=80',
-  Industries: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80',
-  Platforms: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80',
-  'Insights & Resources': 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=80',
-  Company: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80',
+  Services: '/images/navbar/services.jpg',
+  Solutions: '/images/navbar/solutions.jpg',
+  Industries: '/images/navbar/industries.jpg',
+  Platforms: '/images/navbar/platforms.jpg',
+  'Insights & Resources': '/images/navbar/insights.jpg',
+  Company: '/images/navbar/company.jpg',
 }
 
 function DesktopMegaMenu({ data, onItemClick }: { data: typeof servicesSubmenu; label: string; onItemClick: () => void }) {
@@ -176,12 +176,12 @@ export default function Navbar() {
     <div>
     <nav ref={navRef} className="bg-navy-900/95 backdrop-blur-md">
       <div className="max-w-[1440px] mx-auto px-4 lg:px-8">
-        <div className="flex items-center justify-between h-16 lg:h-[72px]">
+        <div className="flex items-center justify-between h-[72px] lg:h-20">
           <Link to="/" className="shrink-0">
             <img
               src="/ambifologo.png"
               alt="Ambifo Technology"
-              className="h-20 lg:h-24 w-auto"
+              className="h-24 lg:h-28 w-auto"
             />
           </Link>
 

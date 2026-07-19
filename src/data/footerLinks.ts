@@ -44,17 +44,12 @@ export const footerServices = [
 ]
 
 export const footerPlatforms = [
-  { label: 'VISTA', link: '/platforms/vista' },
-  { label: 'Media Intelligence Platform', link: '/platforms/media-intelligence-platform' },
+  { label: 'SENTINEL', link: '/platforms/sentinel' },
+  { label: 'PRISM', link: '/platforms/prism' },
+  { label: 'FORGE', link: '/platforms/forge' },
 ]
 
 export const footerSolutions = [
-  { label: 'Max AI Studio', link: '/platforms/max-ai-studio' },
-  { label: 'Cloud Solution Factory', link: '/solutions/cloud-solution-factory' },
-  { label: 'Swayam.Cloud', link: 'https://swayam.cloud/' },
-  { label: 'CloudStorz', link: 'https://www.cloudstorz.com/' },
-  { label: 'Swayam.AI', link: '/solutions/swayam' },
-  { label: 'AI Solution Factory', link: '/solutions/ai-solution-factory' },
   { label: 'Gen AI Solution Factory', link: '/solutions/gen-ai-solution-factory' },
 ]
 

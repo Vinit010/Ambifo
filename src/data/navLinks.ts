@@ -53,8 +53,9 @@ export const platformsSubmenu = {
   label: 'Platforms',
   description: 'Explore our AI-native platforms built for mission-critical operations across industries.',
   items: [
-    { label: 'VISTA', link: '/platforms/vista' },
-    { label: 'Media Intelligence Platform', link: '/platforms/media-intelligence-platform' },
+    { label: 'SENTINEL', link: '/platforms/sentinel' },
+    { label: 'PRISM', link: '/platforms/prism' },
+    { label: 'FORGE', link: '/platforms/forge' },
   ],
 }
 
@@ -62,26 +63,6 @@ export const solutionsSubmenu = {
   label: 'Solutions',
   description: 'We offer a comprehensive suite of AI solutions, including cloud-based machine learning, generative AI tools, and automated data processing solutions to empower your business.',
   columns: [
-    {
-      heading: 'Max AI Studio',
-      link: '/platforms/max-ai-studio',
-      items: [],
-    },
-    {
-      heading: 'Cloud Solution Factory',
-      link: '/solutions/cloud-solution-factory',
-      items: [
-        { label: 'Swayam.Cloud', link: 'https://swayam.cloud/' },
-        { label: 'CloudStorz', link: 'https://www.cloudstorz.com/' },
-      ],
-    },
-    {
-      heading: 'AI Solution Factory',
-      link: '/solutions/ai-solution-factory',
-      items: [
-        { label: 'Swayam.AI', link: '/solutions/swayam' },
-      ],
-    },
     {
       heading: 'Gen AI',
       link: '/solutions/gen-ai-solution-factory',

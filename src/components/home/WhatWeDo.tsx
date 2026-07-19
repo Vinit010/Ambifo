@@ -20,12 +20,12 @@ const accentMap: Record<string, string> = {
 }
 
 const bgMap: Record<string, string> = {
-  'Strategy & Advisory': 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80',
-  'Cloud Infrastructure & Security': 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80',
-  'App Modernization': 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80',
-  'AI, Data & Analytics': 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80',
-  'Generative AI': 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&q=80',
-  'Data & AI Platforms': 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80',
+  'Strategy & Advisory': '/images/whatwedo/strategy.jpg',
+  'Cloud Infrastructure & Security': '/images/whatwedo/cloud.jpg',
+  'App Modernization': '/images/whatwedo/hardware.jpg',
+  'AI, Data & Analytics': '/images/whatwedo/data.jpg',
+  'Generative AI': '/images/whatwedo/ai.jpg',
+  'Data & AI Platforms': '/images/whatwedo/network.jpg',
 }
 
 export default function WhatWeDo() {
@@ -34,7 +34,7 @@ export default function WhatWeDo() {
       {/* Full background */}
       <div className="absolute inset-0 bg-gradient-to-br from-navy-900 via-navy-900 to-blue-900" />
       <img
-        src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&q=60"
+        src="/images/whatwedo/banner.jpg"
         alt=""
         className="absolute inset-0 w-full h-full object-cover opacity-[0.07]"
         loading="lazy"

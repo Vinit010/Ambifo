@@ -41,24 +41,24 @@ export const edgeYouNeed = [
     label: 'THE EDGE YOU NEED',
     title: 'Applied Expertise',
     desc: 'Practical application, not just theory.',
-    image: 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/66a1cf865645144a52c03a45_edge%20you%20need%20(3).avif',
+    image: '/images/services/edge-1.avif',
   },
   {
     label: 'THE EDGE YOU NEED',
     title: 'End-to-End Delivery',
     desc: 'Your partner from planning to ongoing support.',
-    image: 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/66a1cf875645144a52c03aa1_edge%20you%20need%20(1).avif',
+    image: '/images/services/edge-2.avif',
   },
   {
     label: 'THE EDGE YOU NEED',
     title: 'Industry-Specific Solutions',
     desc: 'Tailored solutions for your unique needs.',
-    image: 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/66a1cf895645144a52c03bd8_edge%20you%20need%20(2).avif',
+    image: '/images/services/edge-3.avif',
   },
   {
     label: 'THE EDGE YOU NEED',
     title: 'Human-Centered AI',
     desc: 'Eliminating fear with a human touch.',
-    image: 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/66a1cf8a5645144a52c03caa_edge%20you%20need%20(4).avif',
+    image: '/images/services/edge-4.avif',
   },
 ]

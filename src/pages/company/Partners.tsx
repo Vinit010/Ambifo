@@ -4,9 +4,9 @@ import Button from '../../components/common/Button'
 import { Helmet } from 'react-helmet-async'
 
 const cloudPartners = [
-  { name: 'AWS', image: 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/66bb00865b14209c96b9a49a_aws%20logo.avif', desc: 'Premier Consulting Partner with deep expertise across migration, DevOps, security, and AI/ML on AWS.' },
-  { name: 'Microsoft Azure', image: 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/66baee1ab18ad985eb74ea4a_Microsoft_Azure.avif', desc: 'Gold Managed Services Partner delivering enterprise cloud solutions, hybrid infrastructure, and intelligent automation on Azure.' },
-  { name: 'Google Cloud', image: 'https://cdn.prod.website-files.com/65d31966fa055990bedb1417/662e022aa05cdd773949e045_Google_Cloud.svg.avif', desc: 'Specialized partner for data analytics, AI/ML, and cloud-native application development on Google Cloud Platform.' },
+  { name: 'AWS', image: '/images/logos/tech/aws.avif', desc: 'Advance Consulting Partner with deep expertise across migration, DevOps, security, and AI/ML on AWS.' },
+  { name: 'Microsoft Azure', image: '/images/logos/tech/azure.avif', desc: 'Managed Services Partner delivering enterprise cloud solutions, hybrid infrastructure, and intelligent automation on Azure.' },
+  { name: 'Google Cloud', image: '/images/logos/tech/gcp.avif', desc: 'Specialized partner for data analytics, AI/ML, and cloud-native application development on Google Cloud Platform.' },
 ]
 
 export default function Partners() {
